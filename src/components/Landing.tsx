@@ -12,6 +12,12 @@ export const Landing = () => {
         <div className=" w-72 h-72 rounded-2xl hover:shadow-2xl transition  shadow-md shadow-teal-600/80">
           <img src={me} alt="Me" className="rounded-2xl w-72 h-72" />
         </div>
+        <a href="https://github.com/vinicius-prates" target="_blank" className="p-1 bg-teal-500 rounded-md">
+          <div className=" text-black  tracking-widest text-ms flex flex-row gap-2 justify-center items-center">
+            <p>Check my GitHub</p>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" className="w-5 h-5"/>
+          </div>
+        </a>
       </div>
     </div>
   );
